@@ -1,0 +1,193 @@
+
+body{
+	display:flex;
+	flex-direction: column;
+	margin:0px;
+	font-family: "Roboto", sans-serif;
+}
+
+img {
+    display: block; 
+    margin: 0;
+    padding: 0; 
+}
+a{
+	text-decoration: none;
+	color:black;
+	font-weight: 600;
+	font-size:15px;
+	margin: 0;
+    padding: 0;
+    border: none;
+}
+
+nav{
+	display:flex;
+	justify-content: center;
+	border: 1px solid #f2f2f2;
+}
+.sirinaimg{
+	width:70%;
+	display:flex;
+	align-self: center;
+
+}
+
+section{
+	display:flex;
+	width:70%;
+	align-self: center;
+	justify-content: center;
+	flex-direction:row;
+	flex-wrap: wrap;
+
+}
+
+hr{
+	width:100vw;
+	height:1px;
+	border-top: #f2f2f2;
+	background-color:#f2f2f2;
+}
+
+.sirina{
+	display:flex;
+	width:70%;
+	align-self: center;
+
+}
+#main{
+	display: flex;
+	border:1px solid gray;
+	width:100vw;
+}
+
+header{
+	width:100vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+}
+
+a{
+	margin:10px 80px 10px 80px;
+}
+
+#one article{
+	width: 18.6%;
+	min-width: 160px;
+	padding-right:10px;
+}
+
+#one article img{
+	width:100%;
+	height: 113.36px;
+	
+}
+
+#two article{
+	width:22.3%;
+	padding-right:20px;
+	min-width: 195px;
+}
+
+#two article img{
+	width:100%;
+	height: 138px;
+	
+}
+
+footer{
+	background-color: #f2f2f2;
+	width:100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.desno{
+	display:flex;
+	width:70%;
+	align-self: center;
+	justify-content: right;
+}
+
+.desno p{
+	color:grey;
+	font-weight: 600;
+}
+
+#main{
+	display:flex;
+	flex-direction: column;
+	width:80%;
+	align-self: center;
+	border:0px;
+}
+
+#main h1{
+	text-align: center;
+}
+
+.snaslov{
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	color: gray;
+}
+
+.tamni{
+	background-color: #404040;
+}
+
+.levo{
+	width:80%;
+
+}
+
+#mainUnos{
+	display:flex;
+	flex-direction: column;
+	width:80%;
+	align-self: center;
+	border:0px;
+	justify-content: center;
+}
+label, input, textarea{
+	display: flex;
+	align-self: center;
+	width:100%;
+	border:0px;
+}
+
+.form-item{
+	width:80%;
+	padding:10px;
+}
+
+form{
+	align-items: center;
+	width:50%;
+	display:flex;
+	padding:20px;
+	flex-direction: column;
+	align-self: center;
+	border:0px;
+	justify-content: center;
+	background-color:#f2f2f2;
+}
+
+.clanak{
+	width: 100%;
+	background-color: lightgrey;
+	padding:20px;
+	margin-top: 8px;
+	margin-bottom:8px;
+}
+
+.brisanje{
+	width: 95%;
+	padding:20px;
+	margin:20px;
+	background-color: lightgrey;
+}

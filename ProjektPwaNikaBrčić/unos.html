@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unos članka</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="sirinaimg">
+            <img src="img/Franceinfo.png" style="width:120px; margin-top:25px;"/>
+        </div>
+        <nav>
+            <a href="pocetna.php">home</a>
+            <a href="#">elections</a>
+            <a href="#">les jt</a>
+            <a href="unos.html">Unos clanaka</a>
+            <a href="administracija.php">administracija</a>
+        </nav>
+    </header>
+    <div id="mainUnos">
+        <form action="skripta.php" method="POST" enctype="multipart/form-data">
+            <div class="form-item">
+                <label for="title">Naslov vijesti</label>
+                <div class="form-field">
+                    <input type="text" name="title" class="form-field-textual">
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="about">Prvi podnaslov</label>
+                <div class="form-field">
+                    <textarea name="about" cols="30" rows="10" class="form-field-textual"></textarea>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="content">Skraceni sadrzaj vijesti</label>
+                <div class="form-field">
+                    <textarea name="content" cols="30" rows="10" class="form-field-textual"></textarea>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="contentReal">Prvi sadrzaj vijesti</label>
+                <div class="form-field">
+                    <textarea name="contentReal" cols="30" rows="10" class="form-field-textual"></textarea>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="aboutReal">Drugi podnaslov</label>
+                <div class="form-field">
+                    <textarea name="aboutReal" cols="30" rows="10" class="form-field-textual"></textarea>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="contentReal2">Drugi sadrzaj vijesti</label>
+                <div class="form-field">
+                    <textarea name="contentReal2" cols="30" rows="10" class="form-field-textual"></textarea>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="pphoto">Slika: </label>
+                <div class="form-field">
+                    <input type="file" accept="image/*" class="input-text" name="pphoto"/>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="category">Kategorija vijesti</label> 
+                <div class="form-field">
+                    <select name="category" class="form-field-textual">
+                        <option value="elections">Elections</option>
+                        <option value="letjs">let js</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-item">
+                <label>Spremiti u arhivu:
+                <div class="form-field">
+                    <input type="checkbox" name="archive">
+                </div>
+                </label>
+            </div>
+            <div class="form-item">
+                <button type="reset" value="Poništi">Poništi</button>
+                <button type="submit" value="Prihvati">Prihvati</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="desno">
+            <p>france.tv</p>
+        </div>
+    </footer>
+</body>
+</html>
